@@ -1,0 +1,8 @@
+/home/guts/Projects/BookCart/obj/Debug/net8.0/BookCart.csproj.AssemblyReference.cache
+/home/guts/Projects/BookCart/obj/Debug/net8.0/BookCart.GeneratedMSBuildEditorConfig.editorconfig
+/home/guts/Projects/BookCart/obj/Debug/net8.0/BookCart.AssemblyInfoInputs.cache
+/home/guts/Projects/BookCart/obj/Debug/net8.0/BookCart.AssemblyInfo.cs
+/home/guts/Projects/BookCart/obj/Debug/net8.0/BookCart.csproj.CoreCompileInputs.cache
+/home/guts/Projects/BookCart/obj/Debug/net8.0/BookCart.MvcApplicationPartsAssemblyInfo.cache
+/home/guts/Projects/BookCart/obj/Debug/net8.0/BookCart.RazorAssemblyInfo.cache
+/home/guts/Projects/BookCart/obj/Debug/net8.0/BookCart.RazorAssemblyInfo.cs

@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "nm5pixx6mPsmpQOvV/TkFJEX4sDKFSJ0QABCInswiTA=",
+  "Source": "BookCart",
+  "BasePath": "_content/BookCart",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookCart/wwwroot",
+      "Source": "BookCart",
+      "ContentRoot": "/home/guts/Projects/BookCart/wwwroot/",
+      "BasePath": "_content/BookCart",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
