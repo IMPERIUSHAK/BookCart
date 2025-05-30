@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKCART</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <button class="catalog-btn">catalog</button>
+        <button class="profile-btn"><img class="profile-btn_img" src="./bookPics/icon.png" alt="image"></button>
+        <button class="bookmark-btn"><img class="bookmark-btn_img" src="./bookPics/icon.png" alt="image"></button>
+        <button class="basket-btn"><img class="basket-btn_img" src="./bookPics/icon.png" alt="image"></button>
+        <div class="search-form">
+            <input class="search-form_txt" type="text" placeholder="Search...">
+            <button class="search-form_btn"><img 
+            class="search-form_image" src=".\bookPics\icon.png" alt="image"></button>
+        </div>
+    </header>
+
+    <h1 class="new-tittle">Новиники</h1>
+
+    <div class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="overlay"></div>
+
+    <button class="cart" id="cart">
+        <img class="cart-image" src="./bookPics/icons8-корзина-24.png" alt="Корзина товаров"/>
+        <div class="cart-num" id="cart-num">0</div>
+    </button>
+
+    <div class="popup">
+        <div class="popup-container" id="popup-container">
+            <div class="popup-item">
+                <h1 class="popup-title">Оформление заказа</h1>
+            </div>
+            <div class="popup-item" id="popup-product-list">
+                <div class="popup-product">
+                    <div class="popup-product-wrap">
+                        <img 
+                        src="./bookPics/war-art.webp" 
+                        alt="war-art" 
+                        class="popup-product-image"
+                        />
+                        <h2 class="popup-product-title">Книжка: war-art</h2>
+                    </div>
+                    <div class="popup-product-wrap">
+                        <div class="popup-product-price">1 350</div>
+                        <button class="popup-product-delete">✖</button>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-item">
+                <div class="popup-cost">
+                    <h2 class="popup-cost-title">Итого без скидки</h2>
+                    <output id="popup-cost">0 ₽</output>
+                </div>
+                <div class="popup-discount">
+                    <h2 class="popup-discount-title">Скидка</h2>
+                    <output id="popup-discount">0 ₽</output>
+                </div>
+                <div class="popup-cost">
+                    <h2 class="popup-cost-title">Итого со скидкой</h2>
+                    <output id="popup-cost-discount">0 ₽</output>
+                </div>
+            </div>
+            <button class="popup-close" id="popup-close">✖</button>
+        </div>
+    </div>
+
+    <aside class="side-drawer">
+        <nav>
+            <a href="#">профиль</a><br>
+            <a href="#">книги</a><br>
+            <a href="#">настройки</a><br>
+            <a href="#">заказы</a><br>
+        </nav>
+    </aside>
+<section class="cards">
+
+    <div class="container container-cards">
+        <div class="card">
+        <div class="card-top">
+            <!--СКИДКА НА ТОВАР!-->
+            <a href="#!" class="card-image"><img src="C:\Users\Is\Documents\GitHub\BookCart\Front\bookPics\war-art.webp" alt="card"/></a>
+            <div class="card-label">-10%</div>
+        </div>
+
+        <div class="card-bottom">
+            <div class="card-prices">
+                <div class="card-price card-price--discount">1 350 ₽</div>
+                <div class="card-price card-price--common">1 500 ₽</div>
+            </div>
+            <!--ССЫЛКА НАЗВАНИЕ ТОВАРА-->
+            <a href="#!" class="card-title">ART OF WAR</a>
+            <button class="card-btn">В корзину</button>
+        </div>
+        </div>
+        <div class="card">
+        <div class="card-top">
+            <!--СКИДКА НА ТОВАР!-->
+            <a href="#!" class="card-image"><img src=".\bookPics\war-art.webp" alt="card"/></a>
+            <div class="card-label">-10%</div>
+        </div>
+
+        <div class="card-bottom">
+            <div class="card-prices">
+                <div class="card-price card-price--discount">1 350 ₽</div>
+                <div class="card-price card-price--common">1 500 ₽</div>
+            </div>
+            <!--ССЫЛКА НАЗВАНИЕ ТОВАРА-->
+            <a href="#!" class="card-title">ART OF WAR</a>
+            <button class="card-btn">В корзину</button>
+        </div>
+        </div>
+        <div class="card">
+        <div class="card-top">
+            <!--СКИДКА НА ТОВАР!-->
+            <a href="#!" class="card-image"><img src=".\bookPics\war-art.webp" alt="card"/></a>
+            <div class="card-label">-10%</div>
+        </div>
+
+        <div class="card-bottom">
+            <div class="card-prices">
+                <div class="card-price card-price--discount">1 350 ₽</div>
+                <div class="card-price card-price--common">1 500 ₽</div>
+            </div>
+            <!--ССЫЛКА НАЗВАНИЕ ТОВАРА-->
+            <a href="#!" class="card-title">ART OF WAR</a>
+            <button class="card-btn">В корзину</button>
+        </div>
+        </div>
+        <div class="card">
+        <div class="card-top">
+            <!--СКИДКА НА ТОВАР!-->
+            <a href="#!" class="card-image"><img src=".\bookPics\war-art.webp" alt="card"/></a>
+            <div class="card-label">-10%</div>
+        </div>
+
+        <div class="card-bottom">
+            <div class="card-prices">
+                <div class="card-price card-price--discount">1 350 ₽</div>
+                <div class="card-price card-price--common">1 500 ₽</div>
+            </div>
+            <!--ССЫЛКА НАЗВАНИЕ ТОВАРА-->
+            <a href="#!" class="card-title">ART OF WAR</a>
+            <button class="card-btn">В корзину</button>
+        </div>
+        </div>
+        <div class="card">
+        <div class="card-top">
+            <!--СКИДКА НА ТОВАР!-->
+            <a href="#!" class="card-image"><img src=".\bookPics\war-art.webp" alt="card"/></a>
+            <div class="card-label">-10%</div>
+        </div>
+
+        <div class="card-bottom">
+            <div class="card-prices">
+                <div class="card-price card-price--discount">1 350 ₽</div>
+                <div class="card-price card-price--common">1 500 ₽</div>
+            </div>
+            <!--ССЫЛКА НАЗВАНИЕ ТОВАРА-->
+            <a href="#!" class="card-title">ART OF WAR</a>
+            <button class="card-btn">В корзину</button>
+        </div>
+        </div>
+        <div class="card">
+        <div class="card-top">
+            <!--СКИДКА НА ТОВАР!-->
+            <a href="#!" class="card-image"><img src=".\bookPics\war-art.webp" alt="card"/></a>
+            <div class="card-label">-10%</div>
+        </div>
+
+        <div class="card-bottom">
+            <div class="card-prices">
+                <div class="card-price card-price--discount">1 350 ₽</div>
+                <div class="card-price card-price--common">1 500 ₽</div>
+            </div>
+            <!--ССЫЛКА НАЗВАНИЕ ТОВАРА-->
+            <a href="#!" class="card-title">ART OF WAR</a>
+            <button class="card-btn">В корзину</button>
+        </div>
+        </div>
+        <div class="card">
+        <div class="card-top">
+            <!--СКИДКА НА ТОВАР!-->
+            <a href="#!" class="card-image"><img src=".\bookPics\war-art.webp" alt="card"/></a>
+            <div class="card-label">-10%</div>
+        </div>
+
+        <div class="card-bottom">
+            <div class="card-prices">
+                <div class="card-price card-price--discount">1 350 ₽</div>
+                <div class="card-price card-price--common">1 500 ₽</div>
+            </div>
+            <!--ССЫЛКА НАЗВАНИЕ ТОВАРА-->
+            <a href="#!" class="card-title">ART OF WAR</a>
+            <button class="card-btn">В корзину</button>
+        </div>
+        </div>
+    </div>
+
+</section>
+    <script src="script.js"></script>
+
+</body>
+</html>

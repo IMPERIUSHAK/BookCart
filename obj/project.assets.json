@@ -3920,24 +3920,32 @@
     ]
   },
   "packageFolders": {
-    "/home/guts/.nuget/packages/": {}
+    "C:\\Users\\Is\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/guts/Projects/BookCart/BookCart.csproj",
+      "projectUniqueName": "C:\\Users\\Is\\Documents\\GitHub\\BookCart\\BookCart.csproj",
       "projectName": "BookCart",
-      "projectPath": "/home/guts/Projects/BookCart/BookCart.csproj",
-      "packagesPath": "/home/guts/.nuget/packages/",
-      "outputPath": "/home/guts/Projects/BookCart/obj/",
+      "projectPath": "C:\\Users\\Is\\Documents\\GitHub\\BookCart\\BookCart.csproj",
+      "packagesPath": "C:\\Users\\Is\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Is\\Documents\\GitHub\\BookCart\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/guts/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Is\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3956,7 +3964,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -4008,7 +4016,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
