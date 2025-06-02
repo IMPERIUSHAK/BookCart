@@ -108,6 +108,9 @@
 /home/guts/Projects/BookCart/obj/Debug/net9.0/BookCart.csproj.CoreCompileInputs.cache
 /home/guts/Projects/BookCart/obj/Debug/net9.0/BookCart.MvcApplicationPartsAssemblyInfo.cs
 /home/guts/Projects/BookCart/obj/Debug/net9.0/BookCart.MvcApplicationPartsAssemblyInfo.cache
+/home/guts/Projects/BookCart/obj/Debug/net9.0/BookCart.RazorAssemblyInfo.cache
+/home/guts/Projects/BookCart/obj/Debug/net9.0/BookCart.RazorAssemblyInfo.cs
+/home/guts/Projects/BookCart/obj/Debug/net9.0/BookCart.sourcelink.json
 /home/guts/Projects/BookCart/obj/Debug/net9.0/scopedcss/bundle/BookCart.styles.css
 /home/guts/Projects/BookCart/obj/Debug/net9.0/staticwebassets.build.json
 /home/guts/Projects/BookCart/obj/Debug/net9.0/staticwebassets.development.json
@@ -124,5 +127,3 @@
 /home/guts/Projects/BookCart/obj/Debug/net9.0/BookCart.pdb
 /home/guts/Projects/BookCart/obj/Debug/net9.0/BookCart.genruntimeconfig.cache
 /home/guts/Projects/BookCart/obj/Debug/net9.0/ref/BookCart.dll
-/home/guts/Projects/BookCart/obj/Debug/net9.0/BookCart.RazorAssemblyInfo.cache
-/home/guts/Projects/BookCart/obj/Debug/net9.0/BookCart.RazorAssemblyInfo.cs
