@@ -17,6 +17,6 @@ namespace BookCart
         public string? Bio { get; set; }
 
        
-        public ICollection<Book>? Books { get; set; }
+        public ICollection<Book>? Books { get; set; } = new List<Book>();
     }
 }

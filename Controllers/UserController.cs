@@ -6,12 +6,12 @@ using Microsoft.EntityFrameworkCore;
 [ApiController]
 [Route("api/[Controller]")]
 
-public class UsersController : ControllerBase
+public class UserController : ControllerBase
 {
     private readonly AppDbContext _context;
     private readonly ILogger<AuthorsController> _logger;
 
-    public UsersController(AppDbContext context, ILogger<AuthorsController> logger)
+    public UserController(AppDbContext context, ILogger<AuthorsController> logger)
     {
         _context = context;
         _logger = logger;
@@ -19,8 +19,8 @@ public class UsersController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetAllUsers()
     {
-        var authors = await _context.Users.ToListAsync();
-        return Ok(authors);
+        var users = await _context.Users.ToListAsync();
+        return Ok(users);
     }
-    
+
 }
