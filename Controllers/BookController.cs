@@ -67,7 +67,7 @@ public class BooksController : ControllerBase
         }
 
         await _context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetBookById), new { id = newBook.BookId }, newBook);
+        return Ok(newBook);
     }
 
 
